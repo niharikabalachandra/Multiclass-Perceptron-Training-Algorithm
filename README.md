@@ -7,7 +7,8 @@ The training dataset comprises of the pixel information of 60000, 28 x 28 images
 
 # Network Architecture 
 The Multiclass Perceptron Training Algorithm is used for digit recognition. The inputs to the model are the 784 pixels of each training image of size 28 x 28. The output is a one hot encoded matrix of size 10 x 1, where [1 0 0 0 0 0 0 0 0 0 0] corresponds to 0, [0 1 0 0 0 0 0 0 0 0 0] corresponds to 1 and so on. 
-![Alt text](https://github.com/niharikabalachandra/Multiclass-Perceptron-Training-Algorithm/blob/master/neural%20network.pdf?raw=true "PTA-Network-Architechture")
+
+![Alt text](https://github.com/niharikabalachandra/Multiclass-Perceptron-Training-Algorithm/blob/master/neural%20network.jpeg?raw=true "PTA-Network-Architechture")
 
 The output of the system is then compared to the data label and based on where we have a match or not, we calculate the number of misclassifications per epoch.
 ![Alt text](https://github.com/niharikabalachandra/Multiclass-Perceptron-Training-Algorithm/blob/master/multiclass%20perceptron.png?raw=true "Multiclass-Perceptron-Training-Algorithm")
